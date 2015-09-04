@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArchetypesAndAbilities>
+<Archetype>
+   <name>Explorer</name>
+   <concept>World Interactor</concept>
+   <description>Explorers want to set out to find out more about the world around them, and this drive is far more important than establishing personal ties. This isn't to say Explorers don't have solid friends and family, but their life is defined  by how much of their environment they explore, figure out, and connect with.</description>
+   <Ability>
+      <name>Flaw</name>
+      <level>0</level>
+      <prereq></prereq>
+      <details>Explorers may never focus, step up, or receive teamwork bonuses on Charisma, Communication, or Culture checks.</details>
+   </Ability>
+   <Ability>
+      <name>Astounding Intellect</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>The Explorer gains +1 Creativity to solve puzzles, riddles, conundrums, or logic problems.</details>
+   </Ability>
+   <Ability>
+      <name>Skeptic</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>The explorer gets +1 bonus on tests against temptation, despair, and effects that would affect his/her emotion.</details>
+   </Ability>
+	<SubArchetype>
+	   <name>Scientist</name>
+	   <concept>Methodological Tester</concept>
+	   <description>Scientists are drawn by the allure to discover every facet of the world through self-standardized testing, investigation, and experimentation.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>The Scientist suffers a -1 penalty to all non-combat checks against Networkers and Directors</details>
+	   </Ability>
+	   <Ability>
+		  <name>Celebrated Mind</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Whenever the Scientist is interacting with similarly brainy, scientific, or geeky people, he/she may use a Learned skill trait in place of Charisma to improve relations.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Quick Study</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Scientist may learn magic by apprenticeship or by study in half the normal required time.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Skilled Scribe</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>A Scientist who keeps an active journal or log may perform an instant Grit check versus their own character level to retrieve full details on past events within one round. Failure means retrieving the information takes 5 rounds. This allows the Scientist to recall and retrieve any detail from past adventures.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Skeptic, Advanced</name>
+		  <level>4</level>
+		  <prereq>Skeptic</prereq>
+		  <details>In addition to the +1 bonus from Skeptic, the Scientist may instead use applicable Learned skill traits in tests against temptation, despair, or emotional effects.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Skeptic, Master</name>
+		  <level>8</level>
+		  <prereq>Skeptic, Advanced</prereq>
+		  <details>If a check against temptation, despair, or emotional effects succeeds by more than three, or the check succeeds and the Scientist expends a point of Creativity, a number of people up to the levels of an applicable Learned Skill trait automatically pass their checks.</details>
+	   </Ability>
+	</SubArchetype>
+	<SubArchetype>
+	   <name>Hacker</name>
+	   <concept>Innate Tinkerer</concept>
+	   <description>Hackers are drawn to delving into their innate feelings about the form and functions of what lies in the world around them. They feel their way through tinkering, toiling, and modifying what they can, exploring by pushing functional limitations.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>For each day that a Hacker does not used any Learned Traits, he/she suffers a -1 penalty to Grit.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Tinker</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>If The Hacker has at least one level in a related Trait, the Hacker may attempt to improve one function of a mechanical device (such as speed, efficiency, power) by one step, taking an hour of time and a succesful Creativity or Learn Trait check against the complexity of the object. Failure will reduce the aimed function by one step. Tinker bonuses cannot be boosted on rolls of 6s.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Tinker, Advanced</name>
+		  <level>6</level>
+		  <prereq>Tinker</prereq>
+		  <details>The Hacker may perform Tinker boosts on Alchemy potions, elixers, poisons, and mixtures, and may also now be boosted by 6s.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Tinker, Master</name>
+		  <level>8</level>
+		  <prereq>Tinker, Advanced</prereq>
+		  <details>The Hacker may Expend one Grit per additional die to roll for Tinker checks, each die improving the object or item by one step.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Magical Whim</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Hacker receives a +1 bonus to performing magic learned by precociousness (experimentation).</details>
+	   </Ability>
+	   <Ability>
+		  <name>Magical Whim, Advanced</name>
+		  <level>6</level>
+		  <prereq>Magical Whim</prereq>
+		  <details>If the Hacker successfully casts a precociousness-learned spell 3 times, he/she may alter minor facets of the spell, such as it's appearance, like making a fire spell green. These effects may not increase the actual  direct effect of the spell.</details>
+	   </Ability>
+	</SubArchetype>
+</Archetype>
+<Archetype>
+   <name>Adventurer</name>
+   <concept>World Actor</concept>
+   <description>Adventurers are out to explore the world and conquer all the challenges thrown at them. Their lives seek meaning in knowledge of more areas, creatures, peoples, and most importantly the difficulties they faced and conquered.</description>
+   <Ability>
+      <name>Flaw</name>
+      <level>0</level>
+      <prereq></prereq>
+      <details>If the Adventurer remains in the same town for more than 3 consecutive days, he/she receives a -1 Grit penalty; for more than 7 consecutive days, the penalty is -2, and for more than 20 consecutive days, the penalty is -3. These penalties are removed when the Adventurer spends at least 1 day outside of the town boundaries.</details>
+   </Ability>
+   <Ability>
+      <name>Fascinating Stories</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>The Adventurer may use their Locale traits, instead of Charisma, as a check against a target's Grit (+1 for each 10 people trying to affect), to Fascinate their audience. While Fascinated, targets suffer -2 to Charisma, Seek, and Sense, and the effect may last up to the Adventurer's Grit level in minutes, afterwhich he/she must make another Fascinating Story check.</details>
+   </Ability>
+   <Ability>
+      <name>Navigator</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>With a map of  the applicable area, an Adventurer receives a +1 bonus to all Locale checks. This bonus cannot be used in conjunction with Fascinating Stories.</details>
+   </Ability>
+	<SubArchetype>
+	   <name>Planner</name>
+	   <concept>Organized Seeker</concept>
+	   <description>Planners follow the motto: failing to plan is planning to fail. They thrive on collecting maps, almanacs, and personal accounts to improve their quests, which they long to pit against the world. They are ultimately fulfilled when their foresight prepares them for every challenge they meet.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>The Planner suffers a -1 penalty to Grit if they spend more than one day in an area without which they have a map of.</details>
+	   </Ability>
+	   <Ability>
+		  <name>On A Mission</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Given an entire day to plan before setting off on a task, the Planner and any companions that took part in the trip planning get +1 bonuses to Survival and Navigation checks until the task is complete.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Seeker</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>When on a mission find a particular person or an specific item, the Planner gets a +1 bonus to Seek</details>
+	   </Ability>
+	   <Ability>
+		  <name>Organized</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Planner can use a Grit test against how many days into a journey they are, cut in half and rounded down, to automatically have a needed piece of gear (such that the player may have not thought of), so long as the piece of gear is generic and would have normally been within their means to acquire, like rope, candles, canteen. The Planner may do this a total of 3 times since their last stop in a town, and will still pay the price of the item, as if they had bought it in the last town.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Organized, Advanced</name>
+		  <level>6</level>
+		  <prereq>Organized</prereq>
+		  <details>Like Organized, but may be used for rarer, more specific items, like a religious icon, silver bowl, or Alchemy ingrediants. Generic items can be Organized 5 times since the last town, rare items 3 times, and small weapons 1 time.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Organized, Master</name>
+		  <level>8</level>
+		  <prereq>Organized, Advanced</prereq>
+		  <details>Like Advanced Organized, but may also be used to retro-effectively gather general information. Information must be generic and would have normally been within the means to acquire, such as locale dangers, short-cuts, wand eather. </details>
+	   </Ability>
+	</SubArchetype>
+	<SubArchetype>
+	   <name>Opportunist</name>
+	   <concept>Improvised Whimsy</concept>
+	   <description>Opportunists are happiest off the beaten path, off the map, wandering across borders. Guides are handy for them, but they delight in gaining the most from overcoming the unexpected.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>The Opportunist suffers from a -1 penalty on checks against Temptation</details>
+	   </Ability>
+	   <Ability>
+		  <name>Fortunate</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Once per day, the Opportunist may choose to reroll any or all 1s from a single roll. The choice to use Fortunate can be made after the roll is made.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Wing-it</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Once per scene, an Opportunist may instead use Creativity in place of a 0 level Learned Trait, to perform the trait at level 1. </details>
+	   </Ability>
+	   <Ability>
+		  <name>Wing-it, Advanced</name>
+		  <level>6</level>
+		  <prereq>Wing-it</prereq>
+		  <details>Like Wing-it, but if the Wing-it check succeeds by 3 or more, or if the check succeeds and the Opportunist Expends a level of Grit, he/she may perform a 0-level trait at level 1 for an entire day.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Road Less Travelled</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Whenever the Opportunist is "off the map," lost, or in a new place without a map, the Opportunist gains a +1 Grit bonus.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Road Less Travelled, Advanced</name>
+		  <level>6</level>
+		  <prereq>Road Less Travelled</prereq>
+		  <details></details>
+	   </Ability>
+	</SubArchetype>
+</Archetype>
+<Archetype>
+   <name>Socialite</name>
+   <concept>Person Interactor</concept>
+   <description>Socialites are out to explore and enhance their experiences and knowledge with and about other people. They define their successes by their social spider web, outreach, and capacity for social resources.</description>
+   <Ability>
+      <name>Flaw</name>
+      <level>0</level>
+      <prereq></prereq>
+      <details>If a Socialite spends more than one day totally alone, they suffer a -1 penalty on checks against Despair. If the Socialite spends more days totally alone than twice their Grit level, they automatically, and immediately fail a Despair check.</details>
+   </Ability>
+   <Ability>
+      <name>Lend a Hand</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>By spending one turn rallying team members, the socialite provides an additional die to teamwork checks in that scene.</details>
+   </Ability>
+   <Ability>
+      <name>Building Bridges</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>When meeting someone for the first time, the Socialite may use a Charisma, Communication, or Culture Traits check against a target's Charisma. If it succeeds, the target has a pleasant first impression. The Socialite has a +1 bonus to acquire information and help from the person, as well as the target suffers a -1 penalty to lie, fast-talk, or deceive the Socialite. If the target already has some form of prejudice against the Socialite, whether from poor reputation or bigotry, the checks difficulty is raised by 2.</details>
+   </Ability>
+	<SubArchetype>
+	   <name>Networker</name>
+	   <concept>Connected Diplomat</concept>
+	   <description>Networkers thrive on their ability to build connections with peoples in various cities of various social statures in various professions. For them, it's not what they know, but who they know, yielding great power in having the contacts for anything they need.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>For the first full day when visiting a new town or city, the Networker suffers a -1 penalty to Core Traits. This penalty also applies if the Networker spends more than 3 consecutive days in the Wilderness, and will go away once the Networker returns to a known town or city, or stays in a new town or city for more than one full day.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Connections</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>In any city the Networker spends more than 5 consecutive days, they receive a +1 bonus to checks regarding gathering information from the general populace.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Informant</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Networker has established such a wide level of connections, he/she gets a +2 bonus to checks regarding gathering information about gossip, malicious plans, revenge plots, or any activities involving the Networker.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Informant, Advanced</name>
+		  <level>6</level>
+		  <prereq>Informant</prereq>
+		  <details>Whenever ambushed, the Networker may make Communication or Charisma check against how many days out from a city he/she is (or against 3 if in a city), to have been made aware of a potential ambush. If the check is successful, the Networker gets a normal first turn in the following combat scene.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Build Bridges, Advanced</name>
+		  <level>6</level>
+		  <prereq>Build Bridges</prereq>
+		  <details>Like Building Bridges, but if the check succeeds by 3 or more, or the check succeeds and the Networker extends a level of Grit, the target is enamored by the Networker, and will answer any question the Networker asks, to the best of their ability. The target suffers a -2 penalty to lie, fast-talk, or deceive the Networker.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Build Bridges, Master</name>
+		  <level>8</level>
+		  <prereq>Build Bridges, Advanced</prereq>
+		  <details>Like Advanced Building Bridges, but if the check succeeds by 6 or more, or the check succeeds and the Networker extends a level of Grit, the target will, if requested, swear an Oath to be a supportive ally providing aide where and when possible.</details>
+	   </Ability>
+	</SubArchetype>
+	<SubArchetype>
+	   <name>Friend</name>
+	   <concept>Unbound Kinship</concept>
+	   <description>Friends are focused intensely on what they can do for their already formed alliances and companions, rather than expanding their relationship base. Their experience is one of helping friends and family at every turn, and not feeling bound by social norms of personal interaction.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>Whenever the Friend must significantly interact with another person that is not a companion, family member, or close ally, they must make a Grit test equal to the person's Charisma, and if failed recieves a -1 disadvantage to any non-combat checks with that person for that scene. If interacting with a group, the -1 disadvantage is automatic.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Bolster</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>While in the presence of companions, and for all companions in the presense of a Friend (within a Cricket's Hop), if the Friend is the first to succeed in a test versus Despair, Temptation, or emotional effects, his/her companions get a +1 bonus to their checks.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Protector</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>When an adjacent ally is the perceived target of an attack, the Friend may automatically interject themself in place of the targeted ally, with the attack being resolved against the Friend.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Lend a Hand, Advanced</name>
+		  <level>6</level>
+		  <prereq>Lend a Hand</prereq>
+		  <details>Like Lend a Hand, but if the Friend succeeds in a Charisma check against the number of companions, or expends a level of Charisma, the Friend can lend an extra die to teamwork checks for an entire day.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Lend a Hand, Master</name>
+		  <level>8</level>
+		  <prereq>Lend a Hand, Advanced</prereq>
+		  <details>Like Advanced Lend a Hand, but if the Charisma check succeeds by 3, or the check succeeds and the Friend Expends a level of Charisma, the Friend can lend two extra dice to teamwork checks for an entire day.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Vengeful Fury</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>Upon awareness that a companion, family member, or close ally has been incapacitated, the Friend gains  +1 bonus to all Melee-related checks against any entity that caused the incapacitation. The Friend also suffers a -1 penalty to all Ranged combat attacks. If the companion, family member, or close ally dies, this bonus and penalty change to +2, -2 respectively.</details>
+	   </Ability>
+	</SubArchetype>
+</Archetype>
+<Archetype>
+   <name>Director</name>
+   <concept>Person Actor</concept>
+   <description>Directors thrive on their capacity to affect, either negatively or positively, others around them, whether by control, influence, or intimidation. Their self-worth is defined by their success compared to others and their influential power.</description>
+   <Ability>
+      <name>Flaw</name>
+      <level>0</level>
+      <prereq></prereq>
+      <details>When the Director does not have a higher level, muscle, or stature than anyone in a group, or if they are not directly in charge of a group, they suffer -1 penalty to Core Traits until the circumstances change, or they successfully use a Director (or sub-Archetype) ability. Use of a Director (or sub-Archetype) Ability will negate the penalty for one day.</details>
+   </Ability>
+   <Ability>
+      <name>Threat</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>If the Director has a higher level, muscle, or stature than a single opponent, he/she may attempt an opposed Grit test to gain a +1 bonus to Scrap during that scene.</details>
+   </Ability>
+   <Ability>
+      <name>Divide and Conquer</name>
+      <level>1</level>
+      <prereq></prereq>
+      <details>When accompanied by supportive companions and facing up to twice as many opponents, the Director may take a whole turn addressing the opponents, whereby the opponents each may a Grit test versus the Director's Charisma, Communication, or Guile. For each opponent that fails, they become disorganised and no longer provide any supportive bonuses or combat bonuses to the other opponents.</details>
+   </Ability>
+	<SubArchetype>
+	   <name>Politician</name>
+	   <concept>Group Magnate</concept>
+	   <description>Politicians are the movers and shakers with words of honey or poison, playing a chess game of influence. They succeed at being leaders, entrepreneurs, business magnates, and silver-tongued power brokers.</description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>Politicians suffer from a -1 disadvantage to Temptation and Despair checks.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Insight</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Politician may use a Charisma, Communication, or Guile check against a single target's Charisma to gain insight into the target's motivations, which can be used as a +1 bonus for influencing the target.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Silver Tongue</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Politician gains a +1 advantage on Guile checks for lying, fast-talking, or otherwise deceiving a non-ally, as well as +1 to notice such tactics used against them.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Inscrutable</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>The Politician is a master of bluffing, and during combat is not required to declare his/her intended actions at the beginning of each round, and take no penalty for ad-hoc actions--they had actually intended that all along.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Inscrutable, Advanced</name>
+		  <level>6</level>
+		  <prereq>Inscrutable</prereq>
+		  <details>The Politician may make a Charisma or Guile check against an opponent's Guile, feigning an action that causes the opponent to suffer a -1 penalty to all defensive or reactionary actions against the Politician. This may be done immediately at the beginning of any combat or competition.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Inscrutable, Master</name>
+		  <level>8</level>
+		  <prereq>Inscrutable, Advanced</prereq>
+		  <details>Like Advanced Inscrutable, but if the check succeeds by 6 or more, or if the check succeeds and the Politician Extends a point of Grit, the opponent is entirely unsure of the Politician's allegiance, and will stop attacking if currently doing so or not attack them until the Politician makes a direct attack against the opponent. A Master Inscrutable check takes a -1 penalty for every additional check done against the same opponent, plus an additional -1 if the Politician has physically attacked the opponent.</details>
+	   </Ability>
+	</SubArchetype>
+	<SubArchetype>
+	   <name>Bully</name>
+	   <concept>Devout Tyrant</concept>
+	   <description>Bullies embrace the world as a place of competition, and it's personal. Bullies are masters of riling up allies and brutally debasing their enemies, finding self-worth in nothing less than their standing amongst others. </description>
+	   <Ability>
+		  <name>Flaw</name>
+		  <level>0</level>
+		  <prereq></prereq>
+		  <details>Each time a Bully suffers a wound, he/she must make a Grit test equal to the total number of wounds they've taken, and if failed, the Bully becomes Scared.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Ridicule</name>
+		  <level>4</level>
+		  <prereq></prereq>
+		  <details>A Bully may spend a whole turn mocking a person, and upon making a successful Charisma or Grit check against the target's Grit, the target suffers -1 penalty to all traits for the remainder of the scene.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Ridicule, Advanced</name>
+		  <level>6</level>
+		  <prereq>Ridicule</prereq>
+		  <details>In addition to the effects of Ridicule, if the Ridicule test is won by three or more levels, or if the Ridicule succeeds and the Bully Expends a level of Grit, the target feels a sudden urge to change their current actions, even if their current actions seemed successul.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Ridicule, Master</name>
+		  <level>8</level>
+		  <prereq>Ridicule, Advanced</prereq>
+		  <details>In addition to the effects of Advanced Ridicule, if the test is won by six or more levels, or if the Advanced Ridicule succeeds and the Bully Expends a level of Grit, the target is so downtrodden that they will do nothing but stand still in confusion and doubt during its next turn, incurring a -3 penalty to all checks.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Threat, Advanced</name>
+		  <level>6</level>
+		  <prereq>Threat</prereq>
+		  <details>If a Threat Grit test is won by three or more levels, or if after a successful Threat the Bully Expends a level of Grit, the opponent refuses to attack the Bully in melee for that scene, in addition to the Bully's Scrap bonus.</details>
+	   </Ability>
+	   <Ability>
+		  <name>Threat, Master</name>
+		  <level>8</level>
+		  <prereq>Threat, Advanced</prereq>
+		  <details>In addition to Threat and Advanced Threat effects, if a Master Threat is won by 6 or more levels, or a successful Advanced Threat and an Expended level of Grit, the opponent is terrified of the Bully and will make every effot to flee from him/her.</details>
+	   </Ability>
+	</SubArchetype>
+</Archetype>
+</ArchetypesAndAbilities>
+
+
+
+
+
+
+
+
+

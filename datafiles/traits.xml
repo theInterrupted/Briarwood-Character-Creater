@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Traits>
+	<Trait>
+	   <name>Charisma</name>
+	   <type>core</type>
+	   <description>Charisma is the capacity to effect others intellectually and emotionally.</description>
+	</Trait>
+	<Trait>
+	   <name>Grit</name>
+	   <type>core</type>
+	   <description>Grit is both physical and mental constitution against stress, as well as self-control</description>
+	</Trait>
+	<Trait>
+	   <name>Creativity</name>
+	   <type>core</type>
+	   <description>Creativity is problem solving, inventing, drawing connections, and logic</description>
+	</Trait>
+	<Trait>
+	   <name>Muscle</name>
+	   <type>physical</type>
+	   <description>Muscle is the raw physical power that can be applied</description>
+	</Trait>
+	<Trait>
+	   <name>Hide</name>
+	   <type>physical</type>
+	   <description>Hide is one's ability to disguise oneself in the environment to avoid being sensed</description>
+	</Trait>
+	<Trait>
+	   <name>Seek</name>
+	   <type>physical</type>
+	   <description>Seek is the active pursuit of finding something or someone, noteably using sight</description>
+	</Trait>
+	<Trait>
+	   <name>Scamper</name>
+	   <type>physical</type>
+	   <description>Scamper is one's dexterity, reflexes, and movement control</description>
+	</Trait>
+	<Trait>
+	   <name>Scrap</name>
+	   <type>physical</type>
+	   <description>Scrap is melee combat, either armed or unarmed, in regards of skill to hit and to damage</description>
+	</Trait>
+	<Trait>
+	   <name>Throw</name>
+	   <type>physical</type>
+	   <description>Throw is ranged combat, throwing objects, in regards to skill to hit and damage</description>
+	</Trait>
+	<Trait>
+	   <name>Sense</name>
+	   <type>physical</type>
+	   <description>Sense is one's multiple senses, most noteably for passive use, i.e. sight, hearing, smelling, tasting, touching, balance, etc.</description>
+	</Trait>
+	<Trait>
+	   <name>Alchemy</name>
+	   <type>learned</type>
+	   <description>Chemistry, Crafting, inventing</description>
+	</Trait>
+	<Trait>
+	   <name>Biologics</name>
+	   <type>learned</type>
+	   <description>Biology, botany, zoology</description>
+	</Trait>
+	<Trait>
+	   <name>Communication</name>
+	   <type>learned</type>
+	   <description>Intimidation, Language, reading, writing, negotiation, etiquette, seduction</description>
+	</Trait>
+	<Trait>
+	   <name>Culture</name>
+	   <type>learned</type>
+	   <description>Dress, fashion, Society, politics, performance</description>
+	</Trait>
+	<Trait>
+	   <name>Guile</name>
+	   <type>learned</type>
+	   <description>Sneak, disguise, trade, lie</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: Literature</name>
+	   <type>learned</type>
+	   <description>Books, novels, stories</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: Philosophy</name>
+	   <type>learned</type>
+	   <description>Philosophers, metaphysics</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: Theology </name>
+	   <type>learned</type>
+	   <description>Religions, gods, deities, spirits, rituals, customs</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: Mythology</name>
+	   <type>learned</type>
+	   <description>Old gods, deities, monsters, legends</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: Occult</name>
+	   <type>learned</type>
+	   <description>Forbidden, obscure, rare or taboo rituals, practices, and groups</description>
+	</Trait>
+	<Trait>
+	   <name>Humanities: History</name>
+	   <type>learned</type>
+	   <description>Local, world, kingdoms past</description>
+	</Trait>
+	<Trait>
+	   <name>Locale: Survival</name>
+	   <type>learned</type>
+	   <description>Finding food, making shelters, making fire, identifying safe versus dangerous elements</description>
+	</Trait>
+	<Trait>
+	   <name>Locale: Tracking</name>
+	   <type>learned</type>
+	   <description>Finding a person or creature by their physical trail left behind</description>
+	</Trait>
+	<Trait>
+	   <name>Locale: Navigation</name>
+	   <type>learned</type>
+	   <description>Direction, distances, time to travel</description>
+	</Trait>
+	<Trait>
+	   <name>Machinery: Drive </name>
+	   <type>learned</type>
+	   <description>Operate and steer ground machines that move via wheels or treads</description>
+	</Trait>
+	<Trait>
+	   <name>Machinery: Pilot</name>
+	   <type>learned</type>
+	   <description>Operate and control air machines</description>
+	</Trait>
+	<Trait>
+	   <name>Machinery: Engineering</name>
+	   <type>learned</type>
+	   <description>Identify, repair, fix, invent, build, disassemble mechanical devices</description>
+	</Trait>
+	<Trait>
+	   <name>Medical</name>
+	   <type>learned</type>
+	   <description>Diagnosis, Ailments, treating injuries, surgery</description>
+	</Trait>
+	<Trait>
+	   <name>Nature</name>
+	   <type>learned</type>
+	   <description>Animals, riding, wilderness, geology</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Act</name>
+	   <type>learned</type>
+	   <description>Stage acting</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Art</name>
+	   <type>learned</type>
+	   <description>Painting, drawing</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Dance</name>
+	   <type>learned</type>
+	   <description>Formal, ballroom, belly, tribal, ritualistic, seductive</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Sing</name>
+	   <type>learned</type>
+	   <description>Folk songs, opera, lullabies, ballads</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Instrument </name>
+	   <type>learned</type>
+	   <description>Wood, wind, metals, string, percussion</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Magic</name>
+	   <type>learned</type>
+	   <description>Sleight-of-hand, illusion, distraction, and misdirection</description>
+	</Trait>
+	<Trait>
+	   <name>Perform: Comedy</name>
+	   <type>learned</type>
+	   <description>Ironic, crude, mockery, goofy</description>
+	</Trait>
+	<Trait>
+	   <name>Physics</name>
+	   <type>learned</type>
+	   <description>Physics, Astronomy, Crafting, Invention</description>
+	</Trait>
+	<Trait>
+	   <name>Scribe</name>
+	   <type>learned</type>
+	   <description>Memory, teaching, research, investigation</description>
+	</Trait>
+	<Trait>
+	   <name>Social Sciences: Anthropology </name>
+	   <type>learned</type>
+	   <description>Studying people, cultures, group psychology</description>
+	</Trait>
+	<Trait>
+	   <name>Social Sciences: Criminology</name>
+	   <type>learned</type>
+	   <description>Studying crime, investigations, criminal psychology, forensics</description>
+	</Trait>
+	<Trait>
+	   <name>Social Sciences: Archaeology</name>
+	   <type>learned</type>
+	   <description>Study of cultures and people from the past through the physical evidence left behind</description>
+	</Trait>
+	<Trait>
+	   <name>Social Sciences: Psychology</name>
+	   <type>learned</type>
+	   <description>Study of individual behavior, motivations, and the ego</description>
+	</Trait>
+	<Trait>
+	   <name>Social Sciences: Sociology</name>
+	   <type>learned</type>
+	   <description>Study of  social behaviour, including its origins, development, organization, and institutions such as social norms</description>
+	</Trait>
+	<Trait>
+	   <name>Archery</name>
+	   <type>learned</type>
+	   <description>Bows, crossbows</description>
+	</Trait>
+	<Trait>
+	   <name>Grappling </name>
+	   <type>learned</type>
+	   <description>Wrestling, martial arts, push/pull</description>
+	</Trait>
+	<Trait>
+	   <name>Hand Weapons</name>
+	   <type>learned</type>
+	   <description>Swords, bats, clubs, swung items</description>
+	</Trait>
+	<Trait>
+	   <name>Shooting</name>
+	   <type>learned</type>
+	   <description>Cannons, guns</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Sentinel</name>
+	   <type>magical</type>
+	   <description>Banishing, Shielding, Warding</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Emissary</name>
+	   <type>magical</type>
+	   <description>Binding, Calling, Sending, Summoning, Channeling</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Medic</name>
+	   <type>magical</type>
+	   <description>Cleansing, Healing, Numbing</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Auditor</name>
+	   <type>magical</type>
+	   <description>Divining, Knowing, Locating, Seeing</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Vagrant</name>
+	   <type>magical</type>
+	   <description>Dark Ether Magic: Obscuring, MisKnowing, Illusion, Simulacrum, Unknowing</description>
+	</Trait>
+	<Trait>
+	   <name>Magic: Artificer</name>
+	   <type>magical</type>
+	   <description>Dark Ether Magic: Transformation, Weather</description>
+	</Trait>
+</Traits>
